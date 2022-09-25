@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="icon" href="/images/logo.PNG" />
+    <title>HG Portfolio</title>
+
+    <meta name="author" content="Harshit Gajjar" />
+    <meta
+      name="description"
+      content="This is a portfolio website for Harshit Bhavesh Gajjar. This website lets user know about me and my experience and my interests." />
+
+    <script
+      src="https://kit.fontawesome.com/f5dd5ff3ab.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="brand_logo">
+          <a href="/" class="brand_logo_div">
+            <img
+              class="brand_logo_img"
+              src="/images/logo.PNG"
+              alt="this is the logo" />
+            <p class="brand_title">Harshit G. Portfolio</p>
+          </a>
+        </div>
+        <a href="#" class="toggle_button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar_links">
+          <ul>
+            <li><a href="/html/project.html">PROJECTS</a></li>
+            <li><a href="/html/experience.html">EXPEREINCE</a></li>
+            <li><a href="/html/contactme.html">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="grid grid--1x2">
+          <div class="container-left">
+            <h1>
+              I'm Harshit, I'm
+              <span class="auto-type dynamic-color"></span>
+            </h1>
+            <p class="about-me">
+              I am an enthusiast MS Computer Science Student at Northeastern
+              University(San Francisco campus). I am passionate about coding and
+              problem solving. I have my background in Computer Science and have
+              strong foundations of data structures and algorithms. I have
+              worked in Dubai as a software developer and also worked as an iOS
+              mentor. I have published iOS app on App Store for the largest
+              sports festival of UAE knows as BITS Sports Festival.
+            </p>
+            <br />
+            <p class="about-me">
+              I have experience working with native iOS App Development, Android
+              App Development and also Web Development. I am always curious
+              about learning new tools and technologies and I am currently
+              working as a Teaching Assistant at Northeastern University. In my
+              free time I love watching movies and I love exploring new tastes
+              and places.
+            </p>
+            <div class="resume_download">
+              <a
+                class="resume"
+                href="/resume/resume_harshit_gajjar.pdf"
+                download="">Resume</a>
+            </div>
+          </div>
+          <div class="container-right">
+            <img
+              class="coding-img"
+              src="/images/my_photo.jpeg"
+              alt="The coding image to be shown on home page" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="/script.js"></script>
+    <script>
+      let typed = new Typed(".auto-type", {
+        strings: [
+          "Software Developer",
+          "Teaching Assistant",
+          "App Developer",
+          "Web Developer",
+        ],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
